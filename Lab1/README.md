@@ -32,7 +32,7 @@ En primer lugar, vamos a crear un repositorio remoto en GitHub, para ello se sel
 donde crearemos un repo completamente vacío, tal como se ve la siguiente imagen.
 
 <p align="center">
-  <img src="/Assets/create.png" alt="a">
+  <img src="/Lab1/Assets/create.png" alt="a">
 </p>
 
 ### 2. Subida de archivos
@@ -46,7 +46,7 @@ ver las siguientes opciones:
   Únicamente generar y subir la rama principal al repositorio y de igual forma quedaría vinculado.
 
 <p align="center">
-  <img src="/Assets/init.png" alt="a">
+  <img src="Lab1/Assets/init.png" alt="a">
 </p>
 
 En mi caso, mi computadora ya tenía las credenciales configuradas con anterioridad, por lo que conjunto a una clave SSH fue posible 
@@ -60,10 +60,10 @@ la primera parte del laboratorio:
 - Subir el commit con los cambios al repositorio remoto con `git push`.
 
 <p align="center">
-  <img src="/Assets/clone.png" alt="a">
+  <img src="/Lab1/Assets/clone.png" alt="a">
 </p>
 <p align="center">
-  <img src="/Assets/comands.png" alt="a">
+  <img src="/Lab1/Assets/comands.png" alt="a">
 </p>
 
 ### 3. Comandos git
