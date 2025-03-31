@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis reservas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/my_styles.css">
+    <link rel="stylesheet" href="../styles/menu_styles.css">
+</head>
+<body>
+    <div id="menu_container"></div>
+
+    <div class="main-content">
+        <header>
+            <div id="header_left">
+                <div id="bar_container"> 
+                    <i id="open_button" class="fas fa-bars"></i>
+                </div>
+                <img src="../../assets/logo.png">
+            </div>
+            <div id="new_header">
+                <h1>Mis reservas</h1>
+                <h2>Rodrigo Gualtero</h2>
+            </div>
+        </header>
+        <div id="calendar">
+            <img id="left_arrow" src="../../assets/arrow_1.png" width="30px">
+            <h2 id="header_week">Semana Actual</h2>
+            <img id="right_arrow" src="../../assets/arrow_2.png" width="30px">
+        </div>
+        <table id="weekTable">
+            <thead id="weekTable-head">
+                <tr>
+                    <th id="day0" class="column"></th>
+                    <th id="day1" class="column"></th>
+                    <th id="day2" class="column"></th>
+                    <th id="day3" class="column"></th>
+                    <th id="day4" class="column"></th>
+                    <th id="day5" class="column"></th>
+                </tr>
+            </thead>
+            <tbody id="weekTable-body">
+                <!--Horarios-->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../my_reservations.js"></script>
+    <script src="../menu_script.js"></script>
+</body>
+</html>

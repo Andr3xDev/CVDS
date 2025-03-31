@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Reserva</title>
+    <link rel="stylesheet" href="../styles/new_styles.css">
+    <link rel="stylesheet" href="../styles/menu_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <div id="menu_container"></div>
+    <div class="main-content">
+        <header>
+            <div id="header_left">
+                <i id="open_button" class="fas fa-bars"></i>
+                <img src="../../assets/logo.png">
+            </div>
+            <div id="new_header">
+                <h1>Nueva reserva</h1>
+                <h2>Rodrigo Gualtero</h2>
+            </div>
+        </header>
+        <form>
+            <div id="new_reserve_container">
+                <div id="prueba">
+                    <img src="../../assets/new_background.jpg" width="430px" height="140px">
+                </div>
+    
+                <div class="horizontal">
+                    <div>
+                        <label for="building">Bloque</label>
+                        <select id="building" class="stylize">
+                        <option value="option1">B</option>
+                        <option value="option2">C</option>
+                        </select>
+                    </div>
+        
+                    <div>
+                        <label for="classroom">Salón</label>
+                        <select id="classroom" class="stylize">
+                        <option value="option1">LABISW</option>
+                        <option value="option2">Multimedia</option>
+                        </select>
+                    </div>
+                    
+                </div>
+        
+                <div>
+                    <label for="date">Fecha</label>
+                    <input type="date" id="date" class="stylize">
+                </div>
+                
+                <div class="horizontal">
+                    <div>
+                        <label for="start_time">Hora inicial</label>
+                        <input type="time" id="start_time" class="stylize">
+                    </div>
+        
+                    <div>
+                        <label for="end_time">Hora final</label>
+                        <input type="time" id="end_time" class="stylize">
+                    </div>
+                    
+                </div>
+        
+                <div class="horizontal">
+                    <div>
+                        <label for="repetitive">
+                            <input type="checkbox" id="repetitive">
+                            Repetitivo
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <select id="repetitive_select" class="stylize">
+                            <option value="daily">Diariamente</option>
+                            <option value="weekly">Semanalmente</option>
+                            <option value="fortnightly">Quincenalmente</option>
+                        </select>
+                    </div>
+                </div>
+                        
+                <div>
+                    <label for="reason">Propósito</label>
+                    <textarea id="reason" rows="2" cols="50"></textarea>
+                </div>
+        
+                <button type="submit">Reservar</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../new_script.js"></script>
+    <script src="../menu_script.js"></script>
+</body>
+</html>
+
