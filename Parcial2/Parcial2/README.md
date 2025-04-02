@@ -1,7 +1,7 @@
 <div align="center">
     <h1 align="center">Parcial 2</h1>
     <p align="center">
-        Aplicacion Springboot con MongoDB
+        Andres Felipe Chavarro Plazas
     </p>
 </div>
 
@@ -124,7 +124,13 @@ Para que la aplicación sea más fácil de entender, en esta sección resumiremo
 - **Respuestas de error**:
   404 No encontrado: No se encontró la reserva con el ID especificado.
 
+Ejemplo validado con postman:
+
+![image](https://github.com/user-attachments/assets/7b4c5937-eb0c-4547-b045-33aed9da4511)
+
+
 </br>
+
 
 #### `POST /api/create`
 **Descripción**: Crear una nueva factura.
@@ -158,6 +164,12 @@ Para que la aplicación sea más fácil de entender, en esta sección resumiremo
   400 Solicitud incorrecta: Datos de reserva no válidos.
 
 
+Ejemplo validado con postman:
+
+![image](https://github.com/user-attachments/assets/595a42a7-3be3-4fba-adbe-c5a7b6637efb)
+
+
+
 </br>
 </br>
 
@@ -166,6 +178,14 @@ Utilizaremos este estándar de desarrollo con pruebas unitarias para optimizar e
 
 ![Jacoco test](/docs/jacoco.png)
 
+</br>
+</br>
 
 ## Despliegue Azure
 Para el despliegue, usamos Azure Web Apps para poder acceder a la aplicacion desde el front. Esto es automatico y valido por el mismo funcionamiento de los pipelines, es decir, se aplico CD/CI de forma correcta y util para mantener produccion estable junto al desarrollo.
+
+![image](https://github.com/user-attachments/assets/8d000fe8-5127-4d7d-b6e3-aa137a7546a8)
+
+Se puede utilizar con el siguiente link de referencia para las consultas.
+
+https://parcial2cvds20251-apfmh5ayg0b9fvag.canadacentral-01.azurewebsites.net/api
