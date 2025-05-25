@@ -51,8 +51,9 @@ Lab 8 involves a deliverable that simulates working in teams of 20 or more peopl
 ## 📝 Exams
 
 The exams are designed to assess my individual technical skills, not those of my teammates. Each exam was designed to ensure that the student was not dependent on others and had full knowledge of the subject matter.
-- Lab 1: Use Maven, SpringBoot and pattern desings to create a little app without REST.
-- Lab 2: Little REST app with deploy and basic interfaz with React.
+- Exam 1: Use Maven, SpringBoot and pattern desings to create a little app without REST.
+- Exam 2: Little REST app with deploy and basic interfaz with React.
+- Exam 3: Same of second exam, but larger and focuses on architecture desings.
 
 </br>
 </br>
