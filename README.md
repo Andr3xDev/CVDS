@@ -23,6 +23,17 @@ Feel free to explore and use any of the resources here for non-commercial and ed
 </br>
 </br>
 
+## 💼 Projects done
+
+During the course, we developed projects related to the knowledge we acquired each week. These are the projects we developed:
+- ISIBook: Room reservation system, designed for the university's computer lab (https://github.com/Andr3xDev/ISIBook)
+- ECI Bienestar: Microservices-oriented application for the Bienestar Universitario area at the university (https://github.com/ECIBienestar)
+
+
+
+</br>
+</br>
+
 ## :books: Labs for Learning Technologies
 
 The first three labs are dedicated to learning various technologies relevant to the course.
