@@ -1,6 +1,6 @@
 <div align="center">
   
-<h1 align="center">Ciclos De Vida Del Desarrollo De Software(CVDS)</h1>
+<h1 align="center">Ciclos De Vida Del Desarrollo De Software (CVDS)</h1>
 
 </br>
 
