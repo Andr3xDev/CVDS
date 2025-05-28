@@ -71,4 +71,4 @@ The exams are designed to assess my individual technical skills, not those of my
 
 <!-- LICENSE -->
 ## License
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
